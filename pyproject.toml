@@ -1,13 +1,9 @@
 [project]
 name = "column-summary"
 version = "0.1.0"
-description = "Add your description here"
-authors = [
-    { name = "Chris", email = "chris@cjrobson.com" }
-]
-dependencies = [
-    "pandas>=2.2.2",
-]
+description = "Produce a DataFrame with summary information for each column"
+authors = [{ name = "Chris", email = "chris@cjrobson.com" }]
+dependencies = ["pandas>=2.2.2"]
 readme = "README.md"
 requires-python = ">= 3.8"
 
